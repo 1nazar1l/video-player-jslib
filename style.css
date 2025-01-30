@@ -1,0 +1,16 @@
+.buttons_block {
+    background-color: black;
+}
+
+.buttons_block button {
+    border: 0; 
+    cursor: pointer; 
+    background-color: transparent; 
+    width: 20px; 
+    height: 20px;
+}
+
+.buttons_block button i {
+    color: white; 
+    margin: auto;
+}
