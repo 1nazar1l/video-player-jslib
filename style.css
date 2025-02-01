@@ -12,8 +12,9 @@
 }
 
 .buttons_block {
-    background-color: black;
+    background-color: #000000;
     flex-grow: 0;
+    display: flex;
 }
 
 .buttons_block button {
@@ -30,4 +31,8 @@
 
 .fa{
     font-size: 20px;
+}
+
+.empty_space {
+    flex-grow: 1;
 }
