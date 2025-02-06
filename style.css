@@ -6,7 +6,7 @@
     box-shadow: 0 0 10px 0 black;
 }
 
-.js-video-container {
+.video-container {
     flex-grow: 1;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
 }
 
-.buttons_block button {
+.buttons_block .button {
     border: 0; 
     cursor: pointer; 
     background-color: transparent; 
@@ -26,10 +26,8 @@
 .buttons_block button i {
     color: white; 
     margin: 10px;
-}
-
-.fa{
     font-size: 20px;
+
 }
 
 .empty_space {
