@@ -17,7 +17,7 @@
 }
 
 .vp-buttons__block .vp-button {
-    /* border: 0;  */
+    border: 0; 
     cursor: pointer; 
     background-color: transparent; 
     padding: 0;
