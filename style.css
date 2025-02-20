@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .vp-content__block {
     width: 800px; 
     height: 600px;
@@ -14,6 +16,7 @@
     background-color: #000000;
     flex-grow: 0;
     display: flex;
+    font-family: 'Roboto', serif;
 }
 
 .vp-buttons__block .vp-button {
@@ -26,6 +29,12 @@
     font-size: 20px;
 }
 
+.left_buttons {
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+}
+
 .vp-timer_block {
     flex-grow: 1;
     display: flex;
@@ -35,12 +44,7 @@
 .vp-timer_block .vp-button {
     font-size: 16px;
     padding: 10px 0;
-}
-
-.left_buttons {
-    width: fit-content;
-    display: flex;
-    justify-content: start;
+    margin-top: 1px;
 }
 
 .progress_bar-block {
@@ -71,8 +75,13 @@
     background-color: red;
     opacity: 0;
     transition: opacity .3s ease-in-out;
+    transform: translateX(-6px);
 }
 
 .progress_bar-block:hover .progress_bar-slider {
     opacity: 1;
+}
+
+.vp-button:focus {
+    outline: 0;
 }
