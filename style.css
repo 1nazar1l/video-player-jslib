@@ -26,6 +26,26 @@
     font-size: 20px;
 }
 
-.empty_space {
+.vp-timer_block {
     flex-grow: 1;
+    display: flex;
+}
+
+.progress_bar {
+    flex-grow: 1;
+}
+
+.vp-timer_block .vp-button {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.left_buttons {
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+}
+
+.progress_bar-content {
+    height: 100%;
 }
