@@ -69,4 +69,10 @@
     box-sizing: border-box;
     border: 3px solid white;
     background-color: red;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.progress_bar-block:hover .progress_bar-slider {
+    opacity: 1;
 }
